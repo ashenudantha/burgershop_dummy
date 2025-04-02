@@ -1,0 +1,74 @@
+.carousel {
+    max-height: 500px; 
+}
+
+.carousel-item {
+    height: 500px; 
+}
+
+.carousel-img {
+    height: 100%;
+    object-fit: cover; 
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    text-align: left;  /* Align text to the left */
+    bottom: 2%;       /* Position it at the bottom */
+    left: 2%;          /* Move it slightly from the left */
+    right: auto;       /* Ensure it doesn’t stretch */
+    width: auto;       /* Prevent full width */
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    height: 50px; /* Adjust the height as needed */
+    width: 50px;  /* Adjust width if necessary */
+    top: 50%;      /* Keep it vertically centered */
+    padding-bottom: 5rem;
+}
+
+/*  */
+/* Style for card layout */
+.custom-card {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 22px; /* Adjusted for better look */
+    background: #fff; /* Ensure contrast */
+    transition: transform 0.2s ease-in-out;
+}
+
+.custom-card:hover {
+    transform: scale(1.03); /* Subtle zoom effect */
+}
+
+/* Card Image */
+.custom-card img {
+    height: 160px; /* Make images slightly bigger */
+    object-fit: cover;
+    border-radius: 20px 20px 0 0; /* Top corners rounded */
+}
+
+/* Card Body */
+.custom-card .card-body {
+    padding: 15px;
+    background: rgb(239, 211, 71);
+}
+
+/* Improve Readability */
+.custom-card .card-text {
+    font-size: 14px;
+    color: #444;
+    font-weight: 500;
+}
+
+/* Style Add To Cart Button */
+.custom-card .btn {
+    border-color: black;
+    font-weight: bold;
+}
